@@ -5,6 +5,9 @@
 
 #pragma once
 
+#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#define EE_HANDS
+
 #define XXX KC_NO
 
 #define LAYOUT_miryoku( \
