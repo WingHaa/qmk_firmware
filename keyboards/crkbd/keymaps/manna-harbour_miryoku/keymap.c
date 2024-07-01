@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 
 #ifdef OLED_ENABLE
-#    include <stdio.h>
+#include <stdio.h>
 
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     if (!is_keyboard_master()) {
